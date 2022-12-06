@@ -9,9 +9,3 @@ app = Flask(__name__)
 def home():
 	return render_template('index.html')
 
-# Start our application
-if __name__ == "__main__":
-	app.run(
-		debug=True,
-		port = 2888
-	)
